@@ -1,6 +1,32 @@
-Repository Link: https://github.com/surya-dhir/ta_cricket_mw25
-Branch: ta_cricket_makerweek
-To get started:
-Clone the repository to your local machine.
-The main development branch is ta_cricket_makerweek.
-Follow the setup instructions in the README.md file to get your environment configured.
+# TA x Cricket Data Tool
+
+A Chrome extension that enables users to interact with cricket match data using natural language queries.
+
+## 🚀 Getting Started
+
+1.  **Clone the repository:**
+    ```bash
+    git clone <repository_url>
+    cd ta-cricket-tool
+    ```
+
+2.  **Create a virtual environment:**
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
+
+3.  **Install dependencies:**
+    Make sure you have `pandas` installed.
+    ```bash
+    pip install pandas
+    ```
+
+## 📝 Project Overview
+
+This tool leverages a GenAI model to translate natural language questions from users into executable Python scripts that query a cricket database. The results are then returned to the user as text or visualizations.
+
+-   **Frontend:** Chrome Extension
+-   **Backend:** Python with Pandas
+-   **AI:** Natural Language to Python translation model
+-   **Data:** Structured cricket data (CSVs)
