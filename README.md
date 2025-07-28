@@ -17,8 +17,9 @@ A Chrome extension that enables users to interact with cricket match data using 
     ```
 
 3.  **Install dependencies:**
+    Make sure you have `pandas` installed.
     ```bash
-    pip install -r requirements.txt
+    pip install pandas
     ```
 
 ## 📝 Project Overview
